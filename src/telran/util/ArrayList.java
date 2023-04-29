@@ -112,6 +112,7 @@ public ArrayList() {
 		}
 		return arr;
 	}
+	@SuppressWarnings("unchecked")
 	@Override
 	public void sort() {
 		sort((Comparator<T>) Comparator.naturalOrder());
